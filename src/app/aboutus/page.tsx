@@ -22,22 +22,19 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center justify-center md:text-lg">
           <div className="md:col-span-3 text-center mb-8">
             {" "}
-            {/* Centered the image */}
             <Image
               src="/avatar.png"
               alt="Avatar"
-              width={350}
-              height={350}
+              width={300}
+              height={300}
               priority={true}
               className="mx-auto"
             />
           </div>
           <div className="md:col-span-3 md:pr-8 text-lg md:w-2/3 mx-auto">
             {" "}
-            {/* Adjusted col-span */}
             <p className="text-justify mb-4 max-w-md md:max-w-full">
               {" "}
-              {/* Decreased the width for paragraphs */}
               Hey there! I'm Mukunda Kharal, an aspiring{" "}
               <span className="text-teal-500">Frontend Developer</span>,
               currently immersed in the dynamic world of IT. Pursuing my Bsc.IT
@@ -48,7 +45,6 @@ const AboutSection = () => {
             </p>
             <p className="text-justify mb-4 max-w-md md:max-w-full">
               {" "}
-              {/* Decreased the width for paragraphs */}
               In the realm of coding and design, I'm finding my stride with a
               solid foundation in HTML, CSS, JavaScript, ReactJs,{" "}
               <a href="/skills" className="text-teal-500">
@@ -62,9 +58,8 @@ const AboutSection = () => {
               , allowed me to apply and enhance these skills, providing a
               glimpse into the transformative power of frontend development.
             </p>
-            <p className="text-justify max-w-md md:max-w-full">
+            <p className="text-justify mb-4 max-w-md md:max-w-full">
               {" "}
-              {/* Decreased the width for paragraphs */}
               Beyond the syntax and algorithms, I see coding as a means to
               create seamless and engaging user experiences. It's about
               translating ideas into digital interfaces that captivate and
@@ -74,7 +69,6 @@ const AboutSection = () => {
             </p>
             <p className="text-justify mb-4 max-w-md md:max-w-full">
               {" "}
-              {/* Decreased the width for paragraphs */}
               Currently, I am actively seeking exciting career opportunities
               that align with my skills and aspirations. I bring a
               self-motivated and driven attitude to any project or team, and I'm

@@ -44,7 +44,7 @@ function Navbar() {
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="/">
               <div className="container flex items-center space-x-2 dark:text-white ">
-                <h2 className="text-2xl font-bold bg-gradient-to-br from-slate-600 to-orange-500 bg-clip-text text-transparent">
+                <h2 className="text-3xl font-extrabold bg-gradient-to-br from-slate-600 to-orange-500 bg-clip-text text-transparent">
                   Mukunda
                 </h2>
               </div>
@@ -73,7 +73,7 @@ function Navbar() {
                     key={idx}
                     href={item.page}
                     className={
-                      "block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100"
+                      "block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100 dark:hover:text-neutral-500"
                     }
                     onClick={() => setNavbar(!navbar)}
                   >
